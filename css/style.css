@@ -39,23 +39,59 @@ header span{
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    background-color: white;
     margin-top: 20px;
 
 }
 
 .nav{
-    padding-top: 20px;
+    background-color: white;
+    padding: 30px 0px 10px 40px;
+    margin-top: 20px;
     margin-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 .main{
+    padding-left: 40px;
+    background-color: white;
     margin-left: 30px;
-    margin-top: 2px;
+    color: #686B73 ;
 }
 
 .title{
     padding-top: 30px;
+}
+
+.check{
+    border-radius: 50%;
+    border: 1px solid #67C1AB;
+    padding:0 2px
+}
+
+.check::after{
+    content: "\2713";
+    color: #67C1AB;
+}
+
+.cross{
+    border-radius: 50%;
+    border: 1px solid #F1938E;
+    padding:0 2px
+}
+
+.cross::after{
+    content: "\2717";
+    color: #F1938E;
+}
+
+.etiquette{
+    font-size: 12px;
+    background-color: #45ABEA;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.main p{
+    margin: 10px;
 }
