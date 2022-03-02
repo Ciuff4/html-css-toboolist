@@ -1,0 +1,121 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #F6F8F9;
+}
+/* HEADER */
+header{
+    background-color: white;
+}
+header div{
+    display: inline-block;
+}
+header span{
+    font-size: 50px;
+}
+
+/* MAIN */
+.buttontask{
+    background-color: #47ADF1;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.buttonsection{
+    background-color: white;
+    border: solid lightgray 1px;
+    border-radius: 5px;
+    padding: 5px;
+    color: gray;
+}
+
+.container{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+
+}
+
+.nav{
+    background-color: white;
+    padding: 30px 0px 10px 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.main{
+    padding-left: 40px;
+    background-color: white;
+    margin-left: 30px;
+    color: #686B73 ;
+    padding-bottom: 10px;
+}
+
+.title{
+    padding-top: 30px;
+}
+
+.check{
+    border-radius: 50%;
+    border: 1px solid #67C1AB;
+    padding:0 2px
+}
+
+.check::after{
+    content: "\2713";
+    color: #67C1AB;
+}
+
+.cross{
+    border-radius: 50%;
+    border: 1px solid #F1938E;
+    padding:0 2px
+}
+
+.cross::after{
+    content: "\2717";
+    color: #F1938E;
+}
+
+.etiquette{
+    font-size: 12px;
+    background-color: #45ABEA;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.main p{
+    margin: 10px;
+}
+.main .title{
+    margin: 0px;
+}
+
+#purple{
+    background-color:#9C72E4 ;
+}
+
+#marine{
+    background-color:#64C0A9 ;
+}
+
+#orange{
+    background-color:#F29E33 ;
+}
+
+#pink{
+    background-color:#D863A1 ;
+}
+
+#green{
+    background-color:#B0C926 ;
+}
