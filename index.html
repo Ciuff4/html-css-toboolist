@@ -10,50 +10,44 @@
 </head>
 <body>
     <header>
-        <div>
-            <img src="../html-css-toboolist/img/Logo.png" alt="Logo">
-        </div>
-        <div>
-            <span> <strong>Toboolist</strong> </span>
-        </div>
+            <img src="../html-css-toboolist/img/Logo.png" alt="Logo" class="logo">
+            <h1>Toboolist</h1>
     </header>
 
     <main>
         <div class="container">
             <div class="nav">
-                <span class="buttontask" >Add Task</span>
-                <span class="buttonsection"> Add section </span>
+                <button class="button"> Add task</button>
+                <button class="button section">Add Section</button>
             </div>
             
             <div class="main">
-                <!-- New Task -->
-                <section>
-                    <p class="title"><span>&#9660</span><strong>New Task</strong></p>
-                    <p><span class="check"></span>Quarterly Newsletter <span class="editorial"></span></p>
-                </section>
-                <!-- /New Task -->
-
-                <!-- Today -->
-                <section>
-                    <p class="title"><span>&#9660</span><strong>Today</strong></p>
-                    <p><span class="check"></span>Recruiting blog post <span class="etiquette">Editorial</span> </p>
-                    <p><span class="check"></span>Mobile app launch <span class="etiquette" id="purple">Q1 goals</span> </p>
-                    <p><span class="cross"></span>Interview John H. <span class="etiquette" id="marine">Recruiting</span> </p>
-                    <p><span class="check"></span>Summit update to mobile storefronts <span class="etiquette" id="orange">Mobile</span> </p>
-                </section>
-
-                <!-- /Today -->
-
-                <!-- Upcoming -->
-                <section>
-                    <p class="title"><span>&#9660</span><strong>Upcoming</strong></p>
-                    <p><span class="cross"></span> Schedule meeting with Alex</p>
-                    <p><span class="check"></span>Homepage refresh <span class="etiquettete">Website</span> </p>
-                    <p><span class="cross"></span>Onboard new Sales team members <span class="etiquette" id="pink">Sales</span> </p>
-                    <p><span class="check"></span>Review editorial calendar <span class="etiquette" id="green">Editorial</span> </p>
-                </section>
-
-                <!-- /Upcoming -->
+                <ul>
+                    <li>
+                        <span>&#9660</span><strong>New Task</strong>
+                        <ul>
+                            <li><span class="check"></span>Quarterly Newsletter <span class="etiquette editorial"> Editorial</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>&#9660</span><strong>Today</strong>
+                        <ul>
+                            <li><span class="check"></span>Recruiting blog post <span class="etiquette editorial">Editorial</span></li>
+                            <li><span class="check"></span>Mobile app launch <span class="etiquette q1-goals">Q1 goals</span></li>
+                            <li><span class="cross"></span>Interview John H. <span class="etiquette recruiting">Recruiting</span></li>
+                            <li><span class="check"></span>Summit update to mobile storefronts <span class="etiquette mobile">Mobile</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>&#9660</span><strong>Upcoming</strong>
+                        <ul>
+                            <li><span class="cross"></span> Schedule meeting with Alex</li>
+                            <li><span class="check"></span>Homepage refresh <span class="etiquette website">Website</span></li>
+                            <li><span class="cross"></span>Onboard new Sales team members <span class="etiquette sales">Sales</span></li>
+                            <li><span class="check"></span>Review editorial calendar <span class="etiquette editorial">Editorial</span></li>
+                        </ul>
+                    </li>
+                </ul>
             
             </div>
             
